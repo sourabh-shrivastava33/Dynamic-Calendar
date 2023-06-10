@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Calendar</title>
+	</head>
+	<body>
+		<div class="calendar-container">
+			<div class="calendar-header">
+				<div class="month-picker" id="month-picker">
+					<span></span>
+				</div>
+				<div class="year-changer" id="year-changer">
+					<pre class="year-prev"><</pre>
+					<span class="year"></span>
+					<pre class="year-next">></pre>
+				</div>
+			</div>
+			<div class="calendar-content">
+				<div class="calendar-week-days">
+					<div class="day-name">Sun</div>
+					<div class="day-name">Mon</div>
+					<div class="day-name">Tue</div>
+					<div class="day-name">Wed</div>
+					<div class="day-name">Thu</div>
+					<div class="day-name">Fri</div>
+					<div class="day-name">Sat</div>
+				</div>
+				<div class="calendar_days"></div>
+			</div>
+
+			<div class="calendar-footer" id="calendar-footer">
+				<div class="day-time-date-container">
+					<div class="day-container">
+						<span id="day">Today</span>
+					</div>
+					<div class="time-date-container">
+						<span id="time">10:52</span>
+						<span id="date">09-06-2023</span>
+					</div>
+				</div>
+				<div class="months_list"></div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+
+		<script src="index.js"></script>
+	</body>
+</html>
