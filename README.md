@@ -1,2 +1,0 @@
-# Dynamic-calendar
-# Dynamic-Calendar

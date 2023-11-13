@@ -177,7 +177,7 @@ headerContainer.addEventListener("click", function (e) {
 		generateCalendar(month, year);
 
 		gsap.from(".calendar_days", {
-			y: "-150%",
+			y: "-50%",
 			opacity: 0,
 			duration: 0.7,
 			ease: Expo.inOut,
